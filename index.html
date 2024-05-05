@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+
+   <div id="matchs">
+    <form id="matchsList">
+        <div class="form-divs">
+            <label id="name-label" for="heroname">Nome do herói</label>
+            <input type="text" id="heroname" name="heroname" class="form-input" placeholder="   Insira um nome" required>
+        </div>
+        <div class="form-divs">
+            <label id="form-label" for="victory">Quantidade de vitórias</label>
+            <input type="number" name="victory" class="form-input" placeholder="0" required>
+        </div>
+        <div class="form-divs">
+            <label id="form-label" for="defeat">Experiência do herói</label>
+            <input type="number" name="defeat" class="form-input" placeholder="0" required>
+        </div>
+        <div class="form-divs">
+        <button type="submit" id="submit" class="submit-button" onclick="calcularRanking()">CALCULAR RANKING</button>
+    </form>
+   </div> 
+</body>
+
+</html>
