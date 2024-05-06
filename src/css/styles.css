@@ -10,17 +10,21 @@ header {
     font-weight: bolder;
     font-size:x-large;
     color: antiquewhite;
+    background-color: cornflowerblue;
+    width: 800px;
+    border-radius: 10px;
 }
 
 #matchs {
     display:flex;
     background-color: cornflowerblue;
     border-radius: 10px;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
     position: relative;
-    height: 160px;
-    width: 400px;
+    height: 200px;
+    width: 450px;
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
@@ -35,10 +39,11 @@ header {
 
 #result {
     display: none;
-    flex-direction: column;
+    text-align: center;
     font-weight: bolder;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 350px;
+    text-anchor: middle;
 }
 
 .form-divs{
@@ -46,7 +51,7 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content:space-between;
-    width: 340px;
+    width: 400px;
     font-weight: bold;
 }
 

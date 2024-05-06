@@ -14,39 +14,11 @@ function calcularRanking() {
      
     document.getElementById("result").innerText = "O Herói tem de saldo de "+saldo+" e está no nível de "+rank+"!";
 
-    document.getElementById("result").style.direction = "flex";
+    document.getElementById("result").style.display = "flex";
     document.getElementById("match-list").style.display = "none";
 }
 
 function ranking(saldo) {
-    let rank
-    switch(true){
-        case saldo<=10:
-            return rank = "Ferro";
-            break;
-        case saldo<=20:
-            return rank = "Bronze";
-            break;
-        case saldo<=50:
-            return rank = "Prata";
-            break;
-        case saldo<=80:
-            return rank = "Ouro";
-            break;
-        case saldo<=90:
-            return rank = "Diamante";
-            break;
-        case saldo<=100:
-            return rank = "Lendário";
-            break;
-        default:
-            return rank = "Imortal";
-            break;
-    }
-    return rank
-}
-
-function ranking2(saldo) {
     const rankings = [
         { limite: 10, rank: "Ferro" },
         { limite: 20, rank: "Bronze" },
