@@ -1,5 +1,9 @@
-# desafio-calculadora-de-rpartidas-ranqueadas
+# desafio-calculadora-de-partidas-ranqueadas
 Desafio do bootcamp Santander no DIO
+
+# [CALCULADORA DE PARTIDAS RANQUEADAS (link GitHub Pages)](https://beniih.github.io/desafio-calculadora-de-partidas-ranqueadas/)
+
+
 
 > Instruções para entrega:
  # 2️⃣ Calculadora de partidas Rankeadas
