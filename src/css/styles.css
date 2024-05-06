@@ -27,13 +27,15 @@ header {
 }
 
 #match-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
 
 #result {
-    display: block;
+    display: none;
+    flex-direction: column;
     font-weight: bolder;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +54,8 @@ header {
     /* -ms-transform: translateX(+50%);
     transform: translateX(+50%); */
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-color: transparent;
     border-radius: 10px;
 }
