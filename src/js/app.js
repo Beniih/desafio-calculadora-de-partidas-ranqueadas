@@ -12,7 +12,7 @@ function calcularRanking() {
 
     let rank = ranking(saldo);
      
-    document.getElementById("result").innerText = "O Herói tem de saldo de "+saldo+" e está no nível de "+rank+"!";
+    document.getElementById("result").innerText = "O Herói "+heroName+" tem o saldo de "+saldo+" e está no nível de "+rank+"!";
 
     document.getElementById("result").style.display = "flex";
     document.getElementById("match-list").style.display = "none";
